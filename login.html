@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+.name{	display:inline;}
+label{color:#CC0000;}
+.sub{
+	background-color: #CC0000;
+	color: #ffcccc;
+	font-family:Century;
+	font-size:1em;
+	position:relative;
+	left:3em;
+	   }
+label,a,center{color:#3EE0B2;
+		text-decoration:none;}
+#sign{	width:15em;
+	height:32em;
+	padding-left:15%;
+	padding-right:15%;
+	position:relative;
+	top:1%;
+	left:43%;
+	font-size:1.2em;
+	background-color:rgba(153,153,153,0.8);
+	box-shadow:10px 10px 10px 0 rgba(0, 0, 0, 0.2), 15px 15px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+.box{	border-radius:0.3em;
+	width:15em;
+	height:2em;
+	}
+.heading{ text-shadow:0 0 10px orange;}
+label,a,center{color:#CC0000;
+	font-size:1.2em;
+	text-decoration:none;}
+
+</style>
+</head>
+
+<body background="hd pics\bg1.jpg" style="font-family:Comic Sans MS;height:50em; background-repeat:no-repeat; background-attachment:fixed;">
+<div id="sign"><h1 class='heading' style="color:#CC0000;position:relative;left:30px;">SIGN UP NOW!!!</h1>
+<form action="login.php" method="post">
+<div class="name">
+	<label> Cust Id * : <input type="text" class="box" required name="cid" style="position:relative;left:10em;top=-200px;"/></label>
+<br/><br/>
+	<label> Name : <input type="text" class="box"  name="cname" style="position:relative;left:3em;"/></label>
+<br/><br/>
+	<label>Ph. No :<input type:"text" class="box" name="cphno"style="position:relative;left:3em;"/></label>
+<br/><br/>
+	<label>Address :<input type:"text" class="box" name="cadd" style="position:relative;left:3em;"/></label>
+<br/><br/>
+	<label> Order Id  : <input type="text" class="box" name="coid" style="position:relative;left:3em;"/></label>
+<br/><br/>
+</div>
+<input class="sub" type="submit" value="Take Order"/></div>
+<br><br><br>
+</form>
+
+</body>
+</html>
